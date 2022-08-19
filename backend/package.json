@@ -6,7 +6,10 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@prisma/client": "4.2.1",
+    "prisma": "^4.2.1"
+  },
   "devDependencies": {
     "@types/jest": "^28.1.7",
     "@typescript-eslint/eslint-plugin": "^5.33.1",

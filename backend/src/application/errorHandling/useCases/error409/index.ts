@@ -1,9 +1,9 @@
 import { errorType, IError } from '../../protocols'
 
-export class Error404 implements IError {
+export class Error409 implements IError {
   createError (message: string): errorType {
     return {
-      code: 404,
+      code: 409,
       message
     }
   }

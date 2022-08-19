@@ -1,4 +1,4 @@
-import { newEventEntryType } from './model/event/create'
+import { newEventEntryType } from './model/create'
 
 interface IEventDomain {
   asJSON(): newEventEntryType
